@@ -1,0 +1,21 @@
+html, body, #root {
+  height: 100%;
+}
+html {
+  -webkit-font-smoothing: 'antialiased';
+  -moz-osx-font-smoothing: 'grayscale';
+  box-sizing: 'border-box',
+}
+*, *::before, *::after {
+  box-sizing: 'inherit',
+}
+body {
+  margin: 0
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
